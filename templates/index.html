@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>FLAMES 💖</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <div class="container">
+    <h1>FLAMES 💖</h1>
+    <p class="subtitle">Discover your bond beautifully</p>
+
+    <div class="card">
+      <input type="text" id="name1" placeholder="Your Name">
+      <input type="text" id="name2" placeholder="Partner Name">
+
+      <button onclick="calculateFlames()">Reveal Relationship</button>
+
+      <div id="result" class="result"></div>
+    </div>
+  </div>
+
+  <footer>Made with ❤️ by a Software Developer</footer>
+
+  <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
