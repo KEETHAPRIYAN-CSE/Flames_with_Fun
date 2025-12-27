@@ -1,4 +1,4 @@
-# 💖 FLAMES – Python Backend + Aesthetic Frontend
+# 💖 FLAMES – Python Backend
 
 A full-stack FLAMES relationship calculator with a **Python (Flask) backend**
 and a **modern aesthetic frontend**.
@@ -11,7 +11,6 @@ Built using real-world software engineering practices.
 
 - Frontend: HTML, CSS, JavaScript
 - Backend: Python + Flask (REST API)
-- Communication: JSON over HTTP
 
 ---
 
